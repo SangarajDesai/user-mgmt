@@ -1,0 +1,186 @@
+{
+	"id": "1114ecc5-a977-86cb-435a-c9736ab9d8ca",
+	"name": "user-management",
+	"description": "",
+	"order": [
+		"a5e19e4d-11e2-486c-2d2d-721c2b270c90",
+		"0855be4b-a200-800a-6638-c6628c7f626c",
+		"7862feaa-2dfc-b847-9f57-94ef84b7c02b",
+		"38c40d47-89f2-22ae-53fd-8b090251474f",
+		"8f46c860-1979-60fc-e6aa-5c24f8f089a7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1631549685536,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0855be4b-a200-800a-6638-c6628c7f626c",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.dGVzdDExMkBnMTIuY28.NALyJoZ4L_uXNxzN7Y1cUkGCv_4B73RzBrMjebbjwvM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.dGVzdDExMkBnMTIuY28.NALyJoZ4L_uXNxzN7Y1cUkGCv_4B73RzBrMjebbjwvM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/users/v1.0/613f5eb3a08db9a4ad895a4b",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1114ecc5-a977-86cb-435a-c9736ab9d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1631549698876,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "38c40d47-89f2-22ae-53fd-8b090251474f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.dGVzdDExMkBnMTIuY28.NALyJoZ4L_uXNxzN7Y1cUkGCv_4B73RzBrMjebbjwvM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.dGVzdDExMkBnMTIuY28.NALyJoZ4L_uXNxzN7Y1cUkGCv_4B73RzBrMjebbjwvM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/users/v1.0/613f5eb3a08db9a4ad895a4e",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1114ecc5-a977-86cb-435a-c9736ab9d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Fetch user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1631549716527,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7862feaa-2dfc-b847-9f57-94ef84b7c02b",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.dGVzdDExMkBnMTIuY28.NALyJoZ4L_uXNxzN7Y1cUkGCv_4B73RzBrMjebbjwvM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.dGVzdDExMkBnMTIuY28.NALyJoZ4L_uXNxzN7Y1cUkGCv_4B73RzBrMjebbjwvM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/users/v1.0?pageNo=1&limit=1",
+			"queryParams": [
+				{
+					"key": "pageNo",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1114ecc5-a977-86cb-435a-c9736ab9d8ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Fetch users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1631549708360,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8f46c860-1979-60fc-e6aa-5c24f8f089a7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/login/v1.0",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1114ecc5-a977-86cb-435a-c9736ab9d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1631549723539,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"test112@g12.co\",\n\t\"password\":\"12344\"\n}"
+		},
+		{
+			"id": "a5e19e4d-11e2-486c-2d2d-721c2b270c90",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/users/v1.0",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1114ecc5-a977-86cb-435a-c9736ab9d8ca",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1631549686928,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"test11@g12\",\n\t\"passwor\":\"1234\"\n}"
+		}
+	]
+}
